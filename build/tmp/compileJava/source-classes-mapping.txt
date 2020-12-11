@@ -1,0 +1,54 @@
+br/com/intelipost/ipquoteservices/configuration/ElasticSearchConfiguration.java
+ br.com.intelipost.ipquoteservices.configuration.ElasticSearchConfiguration
+br/com/intelipost/ipquoteservices/configuration/KafkaConfiguration.java
+ br.com.intelipost.ipquoteservices.configuration.KafkaConfiguration
+br/com/intelipost/ipquoteservices/model/QuotingByProductMode.java
+ br.com.intelipost.ipquoteservices.model.QuotingByProductMode
+br/com/intelipost/ipquoteservices/model/Quote.java
+ br.com.intelipost.ipquoteservices.model.Quote
+br/com/intelipost/ipquoteservices/model/QuoteIdentification.java
+ br.com.intelipost.ipquoteservices.model.QuoteIdentification
+br/com/intelipost/ipquoteservices/exception/QuoteNotFoundException.java
+ br.com.intelipost.ipquoteservices.exception.QuoteNotFoundException
+br/com/intelipost/ipquoteservices/model/constants/QuoteAreaType.java
+ br.com.intelipost.ipquoteservices.model.constants.QuoteAreaType
+br/com/intelipost/ipquoteservices/IpQuoteSaveServicesApplication.java
+ br.com.intelipost.ipquoteservices.IpQuoteSaveServicesApplication
+br/com/intelipost/ipquoteservices/model/base/ShipmentSubType.java
+ br.com.intelipost.ipquoteservices.model.base.ShipmentSubType
+br/com/intelipost/ipquoteservices/producer/QuoteProducer.java
+ br.com.intelipost.ipquoteservices.producer.QuoteProducer
+br/com/intelipost/ipquoteservices/model/base/DeliveryMethod.java
+ br.com.intelipost.ipquoteservices.model.base.DeliveryMethod
+br/com/intelipost/ipquoteservices/model/QuoteDeliveryOption.java
+ br.com.intelipost.ipquoteservices.model.QuoteDeliveryOption
+br/com/intelipost/ipquoteservices/model/base/TimeZones.java
+ br.com.intelipost.ipquoteservices.model.base.TimeZones
+br/com/intelipost/ipquoteservices/service/QuoteService.java
+ br.com.intelipost.ipquoteservices.service.QuoteService
+br/com/intelipost/ipquoteservices/controller/QuoteController.java
+ br.com.intelipost.ipquoteservices.controller.QuoteController
+br/com/intelipost/ipquoteservices/model/base/DeliveryMethodType.java
+ br.com.intelipost.ipquoteservices.model.base.DeliveryMethodType
+br/com/intelipost/ipquoteservices/model/base/DeliveryMethodShippingType.java
+ br.com.intelipost.ipquoteservices.model.base.DeliveryMethodShippingType
+br/com/intelipost/ipquoteservices/model/QuoteAdditionalInformation.java
+ br.com.intelipost.ipquoteservices.model.QuoteAdditionalInformation
+br/com/intelipost/ipquoteservices/model/constants/VolumeType.java
+ br.com.intelipost.ipquoteservices.model.constants.VolumeType
+br/com/intelipost/ipquoteservices/model/base/LogisticProvider.java
+ br.com.intelipost.ipquoteservices.model.base.LogisticProvider
+ br.com.intelipost.ipquoteservices.model.base.LogisticProvider$LogisticProviderBuilder
+ br.com.intelipost.ipquoteservices.model.base.LogisticProvider$LogisticProviderCodes
+br/com/intelipost/ipquoteservices/repository/QuoteRepository.java
+ br.com.intelipost.ipquoteservices.repository.QuoteRepository
+br/com/intelipost/ipquoteservices/configuration/RabbitMQConfiguration.java
+ br.com.intelipost.ipquoteservices.configuration.RabbitMQConfiguration
+br/com/intelipost/ipquoteservices/producer/QuoteFallbackProducer.java
+ br.com.intelipost.ipquoteservices.producer.QuoteFallbackProducer
+br/com/intelipost/ipquoteservices/consumer/QuoteConsumer.java
+ br.com.intelipost.ipquoteservices.consumer.QuoteConsumer
+br/com/intelipost/ipquoteservices/model/QuoteVolume.java
+ br.com.intelipost.ipquoteservices.model.QuoteVolume
+br/com/intelipost/ipquoteservices/model/base/ShipmentType.java
+ br.com.intelipost.ipquoteservices.model.base.ShipmentType

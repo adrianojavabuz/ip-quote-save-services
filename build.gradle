@@ -1,0 +1,38 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.4.0'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+	id "io.freefair.lombok" version "5.3.0"
+}
+
+group = 'br.com.intelipost'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-amqp'
+	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+//	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.springframework.amqp:spring-rabbit-test'
+	testImplementation 'org.springframework.security:spring-security-test'
+//	compile group: 'io.micrometer', name: 'micrometer-registry-prometheus', version: '1.6.1'
+	compile group: 'com.google.collections', name: 'google-collections', version: '1.0-rc2'
+	compile group: 'com.google.guava', name: 'guava', version: '12.0'
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+
+	compile group: 'org.springframework.kafka', name: 'spring-kafka', version: '2.6.3'
+	compile group: 'org.apache.kafka', name: 'kafka-streams', version: '2.6.0'
+
+	compileOnly 'org.projectlombok:lombok:1.16.16'
+}
+
+test {
+	useJUnitPlatform()
+}

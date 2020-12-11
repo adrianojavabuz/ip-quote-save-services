@@ -1,0 +1,2 @@
+br/com/intelipost/ipquoteservices/IpQuoteServicesApplicationTests.java
+ br.com.intelipost.ipquoteservices.IpQuoteServicesApplicationTests
